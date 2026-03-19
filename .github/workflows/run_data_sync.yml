@@ -25,7 +25,7 @@ on:
 
 env:
   # please change to your own config.
-  RUN_TYPE: keep_to_strava_sync
+  RUN_TYPE: strava
   ATHLETE: Hugo Chu
   TITLE: "Hugo's Running Page"
   MIN_GRID_DISTANCE: 10 # change min distance here
