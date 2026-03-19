@@ -71,15 +71,6 @@ const Header = () => {
           </Link>
         </div>
         <div className="flex w-3/4 items-center justify-end text-right">
-          {navLinks.map((n, i) => (
-            <a
-              key={i}
-              href={n.url}
-              className="mr-3 text-lg lg:mr-4 lg:text-base"
-            >
-              {n.name}
-            </a>
-          ))}
           <div className="ml-4 flex items-center space-x-2">
             <button
               type="button"
